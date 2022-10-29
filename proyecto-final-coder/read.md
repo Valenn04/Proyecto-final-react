@@ -1,0 +1,1 @@
+Mi nombre es Valentin Garcia y para mi proyecto final queria hacer este ecommerce dedicado a la venta de zapatillas ya que estas siempre me gustaron.
