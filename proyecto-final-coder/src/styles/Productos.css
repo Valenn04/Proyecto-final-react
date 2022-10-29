@@ -1,0 +1,87 @@
+.title{
+    font-size: 2.4rem;
+    padding: 10rem 0 0 0;
+    color: rgb(240, 236, 29); 
+ }
+ 
+ .productos {
+     padding: 5rem 1rem;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+     gap: 3rem 2rem;
+     box-sizing: border-box;
+ }
+ 
+ .producto {
+     display: flex;
+     width: 100%;
+     flex-direction: column;
+     align-items: center;
+     box-shadow: 1px 10px 10px 2px rgba(35, 36, 30, 0.2);
+     border: 6px solid transparent;
+     border-radius: 5px;
+ }
+ 
+ .producto:hover {
+     border: 6px solid #dfdc34a4;
+ }
+ 
+ .producto-img img{
+     width: 310px;
+ }
+ 
+ .producto-footer{
+     padding: 1rem;
+ }
+ 
+ .producto-footer h1 {
+     font-weight: 600;
+     font-size: 1.5rem;
+     color: #1a202c;
+     font-family: Helvetica, sans-serif;
+ }
+ 
+ .producto-footer p {
+     font-weight: 700;
+     text-transform: uppercase;
+     font-size: 18px;
+ }
+ 
+ .producto-footer .price {
+     font-size: 2rem;
+     color: #1a202c;
+ }
+ 
+ .producto .buttom {
+     width: 100%;
+     height: 45px;
+     display: grid;
+     grid-template-columns: 2fr 1fr;
+     gap: 1rem 2rem;
+ }
+ 
+ .buttom .btn {
+     border: none;
+     outline: 0;
+     cursor: pointer;
+     border-radius: 5px;
+ }
+ 
+ .buttom button {
+     background-color:yellow;
+     max-width: 250px;
+     width: 100%;
+     margin: 0;
+     font-size: 1.5rem;
+     font-weight: 600;
+ }
+ 
+ .buttom div {
+     background-color: rgb(50, 168, 129);
+     display: grid;
+     align-items: center;
+     margin-left: -2rem;
+     border-radius: 5px;
+     justify-content: center;
+ }
